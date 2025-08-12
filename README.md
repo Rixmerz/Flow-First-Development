@@ -102,4 +102,8 @@ MIT License — Free to use, adapt, and share.
 ## 🔐 Security
 For responsible disclosure, please read SECURITY.md.
 
+---
+
+*Repository configured and maintained by [@Rixmerz](https://github.com/Rixmerz)*
+
 
