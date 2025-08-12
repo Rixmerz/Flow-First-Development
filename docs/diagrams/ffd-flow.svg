@@ -1,0 +1,50 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+     refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+    </marker>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="400" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1"/>
+  
+  <!-- Title -->
+  <text x="300" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">Flow First Development Process</text>
+  
+  <!-- Step boxes -->
+  <rect x="50" y="80" width="120" height="60" rx="5" fill="#e3f2fd" stroke="#1976d2" stroke-width="2"/>
+  <text x="110" y="100" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1976d2">1. Map User Flow</text>
+  <text x="110" y="120" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">Define sequence</text>
+  
+  <rect x="240" y="80" width="120" height="60" rx="5" fill="#fff3e0" stroke="#f57c00" stroke-width="2"/>
+  <text x="300" y="100" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#f57c00">2. Identify Dependencies</text>
+  <text x="300" y="120" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">Map prerequisites</text>
+  
+  <rect x="430" y="80" width="120" height="60" rx="5" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="2"/>
+  <text x="490" y="100" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#7b1fa2">3. Define Milestones</text>
+  <text x="490" y="120" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">Functional segments</text>
+  
+  <rect x="145" y="200" width="120" height="60" rx="5" fill="#e8f5e8" stroke="#388e3c" stroke-width="2"/>
+  <text x="205" y="220" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#388e3c">4. Build Sequential</text>
+  <text x="205" y="240" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">One milestone at time</text>
+  
+  <rect x="335" y="200" width="120" height="60" rx="5" fill="#ffebee" stroke="#d32f2f" stroke-width="2"/>
+  <text x="395" y="220" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#d32f2f">5. Validate & Iterate</text>
+  <text x="395" y="240" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">User acceptance</text>
+  
+  <!-- Arrows -->
+  <line x1="170" y1="110" x2="240" y2="110" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="360" y1="110" x2="430" y2="110" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="490" y1="140" x2="205" y2="200" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="265" y1="230" x2="335" y2="230" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Feedback loop -->
+  <path d="M 395 260 Q 490 320 110 320 Q 50 320 50 230 Q 50 180 110 180" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)" stroke-dasharray="5,5"/>
+  <text x="270" y="340" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#666">Continuous Improvement Loop</text>
+  
+  <!-- Key principles box -->
+  <rect x="20" y="350" width="560" height="40" rx="3" fill="#fff" stroke="#ccc" stroke-width="1"/>
+  <text x="30" y="365" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#333">Key Principles:</text>
+  <text x="30" y="378" font-family="Arial, sans-serif" font-size="10" fill="#666">• Sequential Order • Dependency Awareness • Milestone Validation • User-Centric Flow</text>
+</svg>

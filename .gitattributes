@@ -1,0 +1,14 @@
+# Normalize line endings
+* text=auto eol=lf
+
+# Treat SVGs as text for diffs
+*.svg text
+
+# Markdown as text with LF
+*.md text eol=lf
+
+# Keep binary as is
+*.png binary
+*.jpg binary
+*.ico binary
+

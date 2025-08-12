@@ -1,0 +1,12 @@
+# Code owners for Flow First Development repository
+# Format: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default owners
+* @Rixmerz
+
+# Docs and templates
+/docs/ @Rixmerz
+/guides/ @Rixmerz
+/templates/ @Rixmerz
+/examples/ @Rixmerz
+

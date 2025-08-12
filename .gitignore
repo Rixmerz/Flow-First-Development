@@ -1,0 +1,92 @@
+# Flow First Development Repository - Git Ignore
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor and IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# Temporary Files
+*.tmp
+*.temp
+*.log
+*.cache
+
+# Documentation Build Files
+_site/
+.sass-cache/
+.jekyll-metadata
+.bundle/
+vendor/
+
+# Node.js (if using any build tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Python (if using any Python tools)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Local Environment Files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Project-specific
+# Add any project-specific files that shouldn't be tracked
+
+# Generated Documentation
+/generated-docs/
+/build/
+/dist/
+
+# Personal Notes and Drafts
+personal-notes.md
+drafts/
+private/
+
+# Backup Files
+*.bak
+*.backup
+*~
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# Local Configuration Overrides
+local-config.json
+local-settings.yml
+
+# Testing and Development
+test-output/
+coverage/
+.nyc_output/
+
+# OS generated files
+Icon?
