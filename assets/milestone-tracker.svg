@@ -1,24 +1,44 @@
-<svg width="600" height="350" xmlns="http://www.w3.org/2000/svg">
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="progressGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#4caf50;stop-opacity:1" />
-      <stop offset="80%" style="stop-color:#8bc34a;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#cddc39;stop-opacity:1" />
+    <!-- Gradients -->
+    <linearGradient id="completedGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#22c55e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16a34a;stop-opacity:1" />
     </linearGradient>
+    <linearGradient id="inProgressGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d97706;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="pendingGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#94a3b8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#64748b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="backgroundGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f8fafc;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="0.1"/>
+    </filter>
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
       <feMerge>
         <feMergeNode in="coloredBlur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
   </defs>
-  
+
   <!-- Background -->
-  <rect width="600" height="350" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1"/>
-  
-  <!-- Title -->
-  <text x="300" y="25" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">FFD Milestone Progress Tracker</text>
+  <rect width="800" height="500" fill="url(#backgroundGradient)" rx="12"/>
+  <rect x="10" y="10" width="780" height="480" fill="none" stroke="#e2e8f0" stroke-width="1" rx="8"/>
+
+  <!-- Header -->
+  <rect x="30" y="30" width="740" height="60" fill="#1e40af" rx="8" filter="url(#shadow)"/>
+  <text x="400" y="55" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="white">Flow First Development</text>
+  <text x="400" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#bfdbfe">Milestone Progress Tracker</text>
   
   <!-- Progress timeline -->
   <line x1="50" y1="70" x2="550" y2="70" stroke="#ddd" stroke-width="4"/>

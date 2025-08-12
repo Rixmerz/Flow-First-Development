@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/ffd-logo.svg" alt="Flow First Development Logo" width="300">
+  <img src="FlowFirst.png" alt="Flow First Development Logo" width="300">
 
   # Flow First Development (FFD)
 </div>
