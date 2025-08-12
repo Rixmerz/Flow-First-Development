@@ -32,7 +32,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Visual diagrams and flowcharts
 - Complete examples and case studies
 
-## [1.0.0] - 2024-12-XX (Planned)
+## [1.0.0] - 2025-08-12
 
 ### Added
 - Core Flow First Development methodology
